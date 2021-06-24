@@ -1,0 +1,78 @@
+/* Navbar Styling*/
+.navbar {
+  flex-direction: column;
+  height: 120px;
+  padding: 20px 0;
+}
+
+.navbar ul li a {
+  padding: 10px 10px;
+  margin: 0;
+}
+
+/* ShowCase Content */
+.lead {
+  font-size: 35px;
+}
+
+.small-lead {
+  font-size: 18px;
+}
+
+/* Icons&Team Styling */
+.flex-items {
+  flex-direction: column;
+}
+
+.flex-items img {
+  width: 80%;
+}
+
+/* Border Styling */
+.team .border {
+  border-right: none;
+  border-bottom: rgba(51, 51, 51, 0.4) 1px solid;
+}
+
+.border {
+  border-right: none;
+  border-bottom: rgba(40, 167, 69, 0.5) 1px solid;
+}
+
+.border:last-child {
+  border-bottom: none;
+}
+
+/* Solutions&Blog Styling */
+.flex-columns .row .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.flex-columns h2 {
+  font-size: 25px;
+}
+
+/* Cases */
+.flex-grid .row .column {
+  flex: 100%;
+  max-width: 100%;
+}
+
+.section-header h2 {
+  font-size: 25px;
+  margin: 10px 0;
+}
+
+.post h2 {
+  font-size: 25px;
+}
+
+.post img {
+  width: 100%;
+}
+
+/* Footer */
+.footer p {
+  margin: 10px 20px;
+}
